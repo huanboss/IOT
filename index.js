@@ -28,7 +28,7 @@ server.listen(port, function () {
 
 //---------------------- MQTT -------------------------
 
-var client = mqtt.connect('mqtt://localhost:1883', { clientId: "doan_htn_jsserver" });
+var client = mqtt.connect('mqtt://localhost:1883');
 
 // declare topics
 
